@@ -9,7 +9,7 @@
 # WiFi Hacker v2.0
 # amsilmudef 2022
 
-# https://github.com/amsilmudef/wifi-hacker/
+# https://github.com/mudef/wifinonpasswd/
 
 # Uses parts of the aircrack-ng suite, reaver, wifite, and many other tools
 
@@ -742,7 +742,7 @@ setVariablesRequired(){
 	versionRemoteClean="00"
 	versionRemoteTemp="0.0"
 	newUpdateAvailable="0"
-	updateMaster=https://raw.githubusercontent.com/esc0rtd3w/wifi-hacker/master/wifi-hacker.sh
+	updateMaster=https://raw.githubusercontent.com/mudef/wifi-hacker/master/wifinonpasswd.sh
 	updateTemp="/tmp/update-check.tmp"
 	updateChecked="0"
 	skipUpdate="0"
@@ -1207,7 +1207,7 @@ banner(){
 	clear
 	$blue
 	echo "---------------------    ****************************************************************    ----------------------"
-	echo "|  [M] Main Menu    |    * WiFi Hacker v$versionBase  /  esc0rtd3w 2019  /  github.com/esc0rtd3w *    | [X] Exit           |"
+	echo "|  [M] Main Menu    |    * WiFi Hacker v$versionBase  /  amsilmudef 2022  /  github.com/mudef *    | [X] Exit           |"
 	echo "---------------------    ****************************************************************    ----------------------"
 	$yellow
 	echo "-------------------------------------------------------------------------------------------------------------------"
@@ -1228,7 +1228,7 @@ bannerNoMenu(){
 	clear
 	$blue
 	echo "---------------------    ****************************************************************    ----------------------"
-	echo "|  [ CTRL+C ] Main  |    * WiFi Hacker v$versionBase  /  esc0rtd3w 2019  /  github.com/esc0rtd3w *    | [CTRL+C x2 ] Exit  |"
+	echo "|  [ CTRL+C ] Main  |    * WiFi Hacker v$versionBase  /  eamsilmudef 2022  /  github.com/mudef *    | [CTRL+C x2 ] Exit  |"
 	echo "---------------------    ****************************************************************    ----------------------"
 	$yellow
 	echo "-------------------------------------------------------------------------------------------------------------------"
@@ -1249,7 +1249,7 @@ bannerMain(){
 	clear
 	$blue
 	echo "---------------------    ****************************************************************    ----------------------"
-	echo "|  [ ]              |    * WiFi Hacker v$versionBase  /  esc0rtd3w 2019  /  github.com/esc0rtd3w *    | [CTRL+C    ] Exit  |"
+	echo "|  [ ]              |    * WiFi Hacker v$versionBase  /  amsilmudef 2022  /  github.com/mudef *    | [CTRL+C    ] Exit  |"
 	echo "---------------------    ****************************************************************    ----------------------"
 	echo "-------------------------------------------------------------------------------------------------------------------"
 	$yellow
@@ -1269,7 +1269,7 @@ bannerMenu(){
 	clear
 	$blue
 	echo "---------------------    ****************************************************************    ----------------------"
-	echo "|  [ ]              |    * WiFi Hacker v$versionBase  /  esc0rtd3w 2019  /  github.com/esc0rtd3w *    | [CTRL+C    ] Exit  |"
+	echo "|  [ ]              |    * WiFi Hacker v$versionBase  /  amsilmudef 2022  /  github.com/mudef *    | [CTRL+C    ] Exit  |"
 	echo "---------------------    ****************************************************************    ----------------------"
 	$yellow
 	echo "-------------------------------------------------------------------------------------------------------------------"
@@ -1289,7 +1289,7 @@ bannerSlim(){
 	clear
 	$blue
 	echo "---------------------    ****************************************************************    ----------------------"
-	echo "|  [ ]              |    * WiFi Hacker v$versionBase  /  esc0rtd3w 2019  /  github.com/esc0rtd3w *    | [CTRL+C    ] Exit  |"
+	echo "|  [ ]              |    * WiFi Hacker v$versionBase  /  amsilmudef 2022  /  github.com/mudef *    | [CTRL+C    ] Exit  |"
 	echo "---------------------    ****************************************************************    ----------------------"
 	$white
 
